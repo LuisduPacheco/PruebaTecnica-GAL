@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.product-list, .cart-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-item, .cart-item {
+  margin-bottom: 10px;
+}
+
+.product-name {
+  font-weight: bold;
+}
+
+.quantity-input {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.add-button {
+  margin-left: 10px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 15px;
+}
+
+h1, h2 {
+  margin-bottom: 20px; 
+}
+
