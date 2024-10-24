@@ -36,7 +36,6 @@ def add_new_product():
     return jsonify({"message": "Producto agregado correctamente"}), 201
 
 
-# Ruta para obtener todos los carritos
 @app.route("/Carts", methods=["GET"])
 def get_carts():
     carts = Carts.query.all()
@@ -51,7 +50,6 @@ def get_carts():
     return jsonify(all_carts), 200
 
 
-# Ruta para agregar un nuevo carrito
 @app.route("/Carts", methods=["POST"])
 def add_new_cart():
     if not request.is_json:
